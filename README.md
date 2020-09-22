@@ -23,3 +23,21 @@ PCA относится к методам обучения без учителя 
 
 ![фото 2](https://github.com/serega14736/ML/blob/master/формула2.png)
 
+Потребуем, чтобы исходные признаковые описания можно было восстановить
+по новым описаниям с помощью некоторого линейного преобразования,
+определяемого матрицей <a href="https://www.codecogs.com/eqnedit.php?latex=U&space;=&space;(u_j_s)_n\times_m:" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U&space;=&space;(u_j_s)_n\times_m:" title="U = (u_j_s)_n\times_m:" /></a>
+
+![фото 3](https://github.com/serega14736/ML/blob/master/формула3.png)
+
+или в векторной форме: <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{x}&space;=&space;xU^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{x}&space;=&space;xU^T" title="\widehat{x} = xU^T" /></a>
+
+Восстановленное описание <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{x}" title="\widehat{x}" /></a> xˆ не обязано в точности совпадать с исходным описанием <a href="https://www.codecogs.com/eqnedit.php?latex=x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x" title="x" /></a>, но их отличие на объектах обучающей выборки должно быть
+как можно меньше при выбранной размерности <a href="https://www.codecogs.com/eqnedit.php?latex=m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m" title="m" /></a>.  Будем одновременно искать матрицы G (описание объектов в новом пространстве) и U (матрица
+линейного преобразования) таким образом, чтобы суммарная невязка 
+
+![фото 4](https://github.com/serega14736/ML/blob/master/формула4.png)
+
+была минимальна, при условии, что все нормы евклидовы: <a href="https://www.codecogs.com/eqnedit.php?latex=||A||^2&space;=&space;tr&space;AA^T&space;=&space;trA^TA." target="_blank"><img src="https://latex.codecogs.com/gif.latex?||A||^2&space;=&space;tr&space;AA^T&space;=&space;trA^TA." title="||A||^2 = tr AA^T = trA^TA." /></a>
+
+Пусть матрицы G и U невырождены и <a href="https://www.codecogs.com/eqnedit.php?latex=rk&space;G&space;=&space;rk&space;U&space;=&space;m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rk&space;G&space;=&space;rk&space;U&space;=&space;m" title="rk G = rk U = m" /></a>
+

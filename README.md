@@ -41,3 +41,17 @@ PCA относится к методам обучения без учителя 
 
 Пусть матрицы G и U невырождены и <a href="https://www.codecogs.com/eqnedit.php?latex=rk&space;G&space;=&space;rk&space;U&space;=&space;m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rk&space;G&space;=&space;rk&space;U&space;=&space;m" title="rk G = rk U = m" /></a>
 
+**Теорема**
+Если <a href="https://www.codecogs.com/eqnedit.php?latex=m&space;\leq&space;rk&space;F" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m&space;\leq&space;rk&space;F" title="m \leq rk F" /></a> то минимум <a href="https://www.codecogs.com/eqnedit.php?latex=\Delta^2(G,U)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta^2(G,U)" title="\Delta^2(G,U)" /></a> достигается, когда столбцы матрицы U есть собственные векторы <a href="https://www.codecogs.com/eqnedit.php?latex=F^TF" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F^TF" title="F^TF" /></a>, , соответствующие m максимальным
+собственным значениям. При этом G = F U, матрицы U и G ортогональны.
+
+Собственные векторы <a href="https://www.codecogs.com/eqnedit.php?latex=u_1,\cdots,u_m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?u_1,\cdots,u_m" title="u_1,\cdots,u_m" /></a> , отвечающие максимальным собственным
+значениям, называют **главными компонентами**.
+
+Рассмотрим некоторые свойства метода главных компонент.
+
+Если <a href="https://www.codecogs.com/eqnedit.php?latex=m=n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m=n" title="m=n" /></a>, то <a href="https://www.codecogs.com/eqnedit.php?latex=\Delta^2(G,U)=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta^2(G,U)=0" title="\Delta^2(G,U)=0" /></a>. В этом случае представление <a href="https://www.codecogs.com/eqnedit.php?latex=F&space;=&space;GU^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F&space;=&space;GU^T" title="F = GU^T" /></a> является точным и совпадает с сингулярным разложением: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=F&space;=&space;GU^T&space;=&space;VDU^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F&space;=&space;GU^T&space;=&space;VDU^T" title="F = GU^T = VDU^T" /></a>
+
+если положить <a href="https://www.codecogs.com/eqnedit.php?latex=G&space;=&space;VD" target="_blank"><img src="https://latex.codecogs.com/gif.latex?G&space;=&space;VD" title="G = VD" /></a> и <a href="https://www.codecogs.com/eqnedit.php?latex=\Lambda&space;=&space;D^2&space;=&space;diag(\lambda_1,\cdots,\lambda_m)." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Lambda&space;=&space;D^2&space;=&space;diag(\lambda_1,\cdots,\lambda_m)." title="\Lambda = D^2 = diag(\lambda_1,\cdots,\lambda_m)." /></a>

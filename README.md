@@ -41,7 +41,7 @@ PCA относится к методам обучения без учителя 
 
 Пусть матрицы G и U невырождены и <a href="https://www.codecogs.com/eqnedit.php?latex=rk&space;G&space;=&space;rk&space;U&space;=&space;m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rk&space;G&space;=&space;rk&space;U&space;=&space;m" title="rk G = rk U = m" /></a>
 
-**Теорема**
+## Теорема
 Если <a href="https://www.codecogs.com/eqnedit.php?latex=m&space;\leq&space;rk&space;F" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m&space;\leq&space;rk&space;F" title="m \leq rk F" /></a> то минимум <a href="https://www.codecogs.com/eqnedit.php?latex=\Delta^2(G,U)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta^2(G,U)" title="\Delta^2(G,U)" /></a> достигается, когда столбцы матрицы U есть собственные векторы <a href="https://www.codecogs.com/eqnedit.php?latex=F^TF" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F^TF" title="F^TF" /></a>, , соответствующие m максимальным
 собственным значениям. При этом G = F U, матрицы U и G ортогональны.
 

@@ -63,3 +63,4 @@ PCA относится к методам обучения без учителя 
 признаки <a href="https://www.codecogs.com/eqnedit.php?latex=g_1,\cdots,g_m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g_1,\cdots,g_m" title="g_1,\cdots,g_m" /></a> не коррелируют на обучающих объектах. Ортогональное
 преобразование U называют **декоррелирующим** или **преобразованием
 Карунена–Лоэва**. Если m = n, то прямое и обратное преобразование вычисляются с помощью одной и той же матрицы <a href="https://www.codecogs.com/eqnedit.php?latex=U:F&space;=&space;GU^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U:F&space;=&space;GU^T" title="U:F = GU^T" /></a> и <a href="https://www.codecogs.com/eqnedit.php?latex=G&space;=&space;F&space;U" target="_blank"><img src="https://latex.codecogs.com/gif.latex?G&space;=&space;F&space;U" title="G = F U" /></a>.
+ 
